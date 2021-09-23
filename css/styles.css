@@ -11494,3 +11494,8 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.resize {
+  max-width: 50%;
+  max-height: 50%;
+}
