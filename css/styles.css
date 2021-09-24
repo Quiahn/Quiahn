@@ -33,16 +33,16 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #1abc9c;
-  --bs-secondary: #2c3e50;
+  --bs-primary: #F19953;
+  --bs-secondary: #2660A4;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
+  --bs-primary-rgb: 241, 153, 83;
+  --bs-secondary-rgb: 38, 96, 164;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -11280,7 +11280,7 @@ html {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding-top: 6rem;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -11304,9 +11304,9 @@ html {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #F19953;
   border-radius: 1rem;
-  border-color: #2c3e50;
+  border-color: #F19953;
 }
 .divider-custom .divider-custom-line:first-child {
   margin-right: 1rem;
@@ -11315,7 +11315,7 @@ html {
   margin-left: 1rem;
 }
 .divider-custom .divider-custom-icon {
-  color: #2c3e50;
+  color: #F19953;
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
@@ -11356,13 +11356,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #F19953;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #1abc9c;
+  color: #F19953;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11384,11 +11384,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #F19953;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #F19953;
   }
 
   #mainNav.navbar-shrink {
@@ -11459,8 +11459,9 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
@@ -11469,7 +11470,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #F19953;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11498,4 +11499,16 @@ html {
 .resize {
   max-width: 50%;
   max-height: 50%;
+}
+
+.icon {
+  width: 128px;
+  height: 128px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.title {
+  height: inherit;
+  margin-top: 25%;
 }
