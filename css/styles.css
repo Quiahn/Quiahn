@@ -10,6 +10,9 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -52,8 +55,8 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-rgb: 33, 37, 41;
-  --bs-font-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-font-sans-serif: 'Varela Round', sans-serif;
+  --bs-font-monospace: 'Varela Round', sans-serif;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
@@ -103,7 +106,7 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Varela Round', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -4078,6 +4081,7 @@ textarea.form-control-lg {
 }
 
 .navbar-toggler {
+  color: #b102fb;
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
@@ -11343,7 +11347,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Varela Round', sans-serif;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -11356,13 +11360,13 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #F19953;
+  color: #d4d4d4;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #F19953;
+  color: #d4d4d4;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11383,12 +11387,12 @@ html {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #F19953;
+    color: #b102fb;
+    background: #fff;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #F19953;
+    color: #d4d4d4;
+    background: transparent;
   }
 
   #mainNav.navbar-shrink {
@@ -11511,4 +11515,17 @@ html {
 .title {
   height: inherit;
   margin-top: 25%;
+}
+
+.header-img {
+  width: 5rem;
+  height: 100%;
+}
+
+.navbar {
+  background: rgb(251,133,43);
+  background: -moz-linear-gradient(105deg, rgba(251,133,43,1) 28%, rgba(204,27,170,1) 77%, rgba(177,2,251,1) 98%);
+  background: -webkit-linear-gradient(105deg, rgba(251,133,43,1) 28%, rgba(204,27,170,1) 77%, rgba(177,2,251,1) 98%);
+  background: linear-gradient(105deg, rgba(251,133,43,1) 28%, rgba(204,27,170,1) 77%, rgba(177,2,251,1) 98%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb852b",endColorstr="#b102fb",GradientType=1);
 }
