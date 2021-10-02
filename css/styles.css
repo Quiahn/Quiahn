@@ -11564,3 +11564,19 @@ html {
   /* max-width: 100%; */
   overflow: hidden;
 }
+
+/* CUSTOM SCROLL BAR */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #111111;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	background-color: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #b102fb;
+}
