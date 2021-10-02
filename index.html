@@ -28,18 +28,22 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#resume">Resume</a></li>
+                        <!--  -->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded d-none d-md-block" href="#portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded d-none d-md-block" href="#resume">Resume + Skills</a></li>
+                        <!--  -->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded d-md-none" href="#mobile-portfolio">Projects</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded d-md-none" href="#skills">Skills</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded d-md-none" href="#mobile-resume">Resume</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <!-- Masthead -->
-        <header class="masthead bg-white text-white text-center vh-100">
-            <div class="container d-flex align-items-center flex-column">
-                <div class="title">
+        <header class="masthead bg-dark text-white text-center vh-100">
+            <div class="container h-100 pt-5">
+                <div class="d-flex align-items-center flex-column pt-5 h-100">
                    
                     <!-- Masthead Heading -->
                     <img src="assets/img/FullNameLogo.png" class="img-fluid pb-5" />
@@ -52,28 +56,25 @@
                     </div> -->
 
                     <!-- Masthead Subheading -->
-                    <p class="text-black h2 py-5 font-weight-light mb-0">Software Engineer Tech Enthusiast</p>
+                    <p class="text-white h2 py-5 pb-4 font-weight-light mb-0">Full Stack Developer - Tech Enthusiast</p>
                     <div class="divider-custom">
                         <div class="divider-custom-line"></div>
                     </div>
                 </div>
             </div>
         </header>
-
-        <!-- Portfolio Section -->
-        <section class="page-section portfolio bg-secondary" id="portfolio">
-            <div class="container vh-100">
-                <!-- Portfolio Section Heading -->
-                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Portfolio</h2>
+        
+        <!-- Project Section -->
+        <section class="page-section portfolio d-none d-md-block bg-dark" id="portfolio">
+            <div class="container min-vh-100">
+                <!-- Project Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Projects</h2>
                 <!-- Icon Divider -->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items -->
+                <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
+
+                <!-- Project Grid Items -->
                 <div class="row justify-content-center">
-                    <!-- Portfolio Item 1 -->
+                    <!-- Project Item 1 -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -82,7 +83,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/archi.vin.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 2 -->
+                    <!-- Project Item 2 -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -91,7 +92,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/monthly.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 3 -->
+                    <!-- Project Item 3 -->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -100,7 +101,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/card-wars.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 4 -->
+                    <!-- Project Item 4 -->
                     <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -109,7 +110,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/your-turn.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 5 -->
+                    <!-- Project Item 5 -->
                     <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -118,7 +119,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/tic-tac-toe.png" alt="..." />
                         </div>
                     </div>
-                    <!-- Portfolio Item 6 -->
+                    <!-- Project Item 6 -->
                     <!-- <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -131,72 +132,304 @@
             </div>
         </section>
 
-        <!-- Skills Section -->
-        <section class="page-section" id="skills">
-            <div class="container vh-100">
-                <!-- Skills Section Heading -->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+        <!-- Mobile Project Section -->
+        <section class="page-section portfolio bg-dark d-md-none" id="mobile-portfolio">
+            <div class="container min-vh-100">
+                <!-- Project Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Projects</h2>
                 <!-- Icon Divider -->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
+                <!-- Project Grid Items -->
+                <div class="row justify-content-center">
+                    <!-- Project Item 1 -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="h5 text-white">Archi.vin</p>
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p class="mt-2">Archi.vin</p></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/archi.vin.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Project Item 2 -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="h5 text-white">Monthly</p>
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p class="mt-2">Monthly</p></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/monthly.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Project Item 3 -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <p class="h5 text-white">Cardwars</p>
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p class="mt-2">Card Wars</p></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/card-wars.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Project Item 4 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <p class="h5 text-white">Your Turn</p>
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p class="mt-2">Your Turn</p></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/your-turn.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Project Item 5 -->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <p class="h5 text-white">Tic-Tac-Toe</p>
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p class="mt-2">Tic-Tac-Toe</p></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/tic-tac-toe.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Project Item 6 -->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto border border-4 shadow" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
+                        </div>
+                    </div> -->
                 </div>
+            </div>
+        </section>
+
+        <!-- Mobile Skills Section -->
+        <section class="page-section d-md-none bg-dark" id="skills">
+            <div class="container min-vh-50">
+                <!-- Skills Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Skills</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
                 <!-- Skills -->
                 <div class="d-flex flex-wrap justify-content-center mx-auto w-100">
-                        <img src="./assets/img/Icons/html-1.svg" class="icon img-fluid" alt="HTML">
-                        <img src="./assets/img/Icons/css-3.svg" class="icon img-fluid" alt="CSS">
-                        <img src="./assets/img/Icons/sass-1.svg" class="icon img-fluid" alt="SASS">
-                        <img src="./assets/img/Icons/tailwindcss.svg" class="icon img-fluid" alt="TailwindCSS">
-                        <img src="./assets/img/Icons/bootstrap-4.svg" class="icon img-fluid" alt="Bootstrap">
-                        <img src="./assets/img/Icons/logo-javascript.svg" class="icon img-fluid" alt="JavaScript">
-                        <img src="./assets/img/Icons/nodejs-icon.svg" class="icon img-fluid" alt="Node JS">
-                        <img src="./assets/img/Icons/jquery.svg" class="icon img-fluid" alt="JQuery">
-                        <img src="./assets/img/Icons/react-2.svg" class="icon img-fluid" alt="React">
-                        <img src="./assets/img/Icons/python-5.svg" class="icon img-fluid" alt="Python">
-                        <img src="./assets/img/Icons/django.svg" class="icon img-fluid" alt="Django">
-                        <img src="./assets/img/Icons/postgresql.svg" class="icon img-fluid" alt="PostgreSQL">
-                        <img src="./assets/img/Icons/git-icon.svg" class="icon img-fluid" alt="Git">
-                        <img src="./assets/img/Icons/mongodb-icon-1.svg" class="icon img-fluid" alt="MongoDB">
-                        <img src="./assets/img/Icons/azure-1.svg" class="icon img-fluid" alt="Microsoft Azure">
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/html-1.svg" class="img-fluid md-icon" alt="HTML">
+                        <p class="h6 text-white">HTML</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/css-3.svg" class="img-fluid md-icon" alt="CSS">
+                        <p class="h6 text-white">CSS</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/sass-1.svg" class="img-fluid md-icon" alt="SASS">
+                        <p class="h6 text-white">SASS</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/tailwindcss.svg" class="img-fluid md-icon" alt="TailwindCSS">
+                        <p class="h6 text-white">TailwindCSS</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/bootstrap-4.svg" class="img-fluid md-icon" alt="Bootstrap">
+                        <p class="h6 text-white">Bootstrap</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/logo-javascript.svg" class="img-fluid md-icon" alt="JavaScript">
+                        <p class="h6 text-white">JavaScript</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/nodejs-icon.svg" class="img-fluid md-icon" alt="NodeJS">
+                        <p class="h6 text-white">NodeJS</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/jquery.svg" class="img-fluid md-icon" alt="JQuery">
+                        <p class="h6 text-white">JQuery</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/react-2.svg" class="img-fluid md-icon" alt="React">
+                        <p class="h6 text-white">React</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/python-5.svg" class="img-fluid md-icon" alt="Python">
+                        <p class="h6 text-white">Python</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/django.svg" class="img-fluid md-icon" alt="Django">
+                        <p class="h6 text-white">Django</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/postgresql.svg" class="img-fluid md-icon" alt="PostgreSQL">
+                        <p class="h6 text-white">PostgreSQL</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/git-icon.svg" class="img-fluid md-icon" alt="Git">
+                        <p class="h6 text-white">Git</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/mongodb-icon-1.svg" class="img-fluid md-icon" alt="MongoDB">
+                        <p class="h6 text-white">MongoDB</p>
+                    </div>
+
+                    <div class="text-center">
+                        <img src="./assets/img/Icons/azure-1.svg" class="img-fluid md-icon" alt="Microsoft Azure">
+                        <p class="h6 text-white">Azure</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Resume Section -->
-        <section class="page-section bg-primary text-white pb-5" id="resume">
-            <div class="container vh-100">
+        <section class="page-section bg-dark d-none d-md-block text-white pb-5" id="resume">
+                <!-- Resume Section Heading -->
+                <div class="row w-100 h-100">
+                    <div class="col-6 text-center">
+                        <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
+                        <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
+                    </div>
+                    <div class="col-6 text-center">
+                        <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+                        <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
+                    </div>
+                </div>
+                <!-- Resume Section Content -->
+                <div class="row w-100 h-100">
+                    <div class="col-6 text-center">
+                        <img src="./assets/img/portfolio/Quiahn-Ballou-Resume-1.png" class="img-fluid resize mx-auto shadow-lg">
+                        <br>
+                        <a class="btn btn-xl btn-outline-light px-5 mx-2 shadow" href="./assets/Quiahn-Ballou-Resume.pdf">
+                            <i class="fas fa-file-alt me-2"></i>
+                            View Resume
+                        </a>
+                        <a class="btn btn-xl btn-outline-light mx-2 my-3 shadow" href="./assets/Quiahn-Ballou-Resume.pdf" download>
+                            <i class="fas fa-file-alt me-2"></i>
+                            Download Resume
+                        </a>
+                    </div>
+        
+                    <!-- Resume Section Button -->
+                    <div class="d-flex flex-column align-items-center justify-content-start col-6">
+                        <!-- Skills -->
+                        <div class="d-flex flex-wrap justify-content-center mx-auto w-100">
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/html-1.svg" class="icon img-fluid" alt="HTML">
+                                <p class="h5">HTML</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/css-3.svg" class="icon img-fluid" alt="CSS">
+                                <p class="h5">CSS</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/sass-1.svg" class="icon img-fluid" alt="SASS">
+                                <p class="h5">SASS</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/tailwindcss.svg" class="icon img-fluid" alt="TailwindCSS">
+                                <p class="h5">TailwindCSS</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/bootstrap-4.svg" class="icon img-fluid" alt="Bootstrap">
+                                <p class="h5">Bootstrap</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/logo-javascript.svg" class="icon img-fluid" alt="JavaScript">
+                                <p class="h5">JavaScript</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/nodejs-icon.svg" class="icon img-fluid" alt="NodeJS">
+                                <p class="h5">NodeJS</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/jquery.svg" class="icon img-fluid" alt="JQuery">
+                                <p class="h5">JQuery</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/react-2.svg" class="icon img-fluid" alt="React">
+                                <p class="h5">React</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/python-5.svg" class="icon img-fluid" alt="Python">
+                                <p class="h5">Python</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/django.svg" class="icon img-fluid" alt="Django">
+                                <p class="h5">Django</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/postgresql.svg" class="icon img-fluid" alt="PostgreSQL">
+                                <p class="h5">PostgreSQL</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/git-icon.svg" class="icon img-fluid" alt="Git">
+                                <p class="h5">Git</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/mongodb-icon-1.svg" class="icon img-fluid" alt="MongoDB">
+                                <p class="h5">MongoDB</p>
+                            </div>
+
+                            <div class="text-center">
+                                <img src="./assets/img/Icons/azure-1.svg" class="icon img-fluid" alt="Microsoft Azure">
+                                <p class="h5">Microsoft Azure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Resume Mobile Section -->
+        <section class="page-section bg-dark d-md-none text-white pb-5" id="mobile-resume">
+            <div class="container min-vh-100">
                 <!-- Resume Section Heading -->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+                <div class="divider-custom divider-light"><div class="divider-custom-line"></div></div>
                 <!-- Resume Section Content -->
                 <div class="row">
-                    <!-- <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div> -->
-                    <!-- <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div> -->
-                    <img src="./assets/img/portfolio/Quiahn-Ballou-Resume-1.png" class="img-fluid resize mx-auto">
+                    <img src="./assets/img/portfolio/Quiahn-Ballou-Resume-1.png" class="img-fluid mx-auto">
                 </div>
                 <!-- Resume Section Button -->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light w-50 mb-2" href="./assets/Quiahn-Ballou-Resume.pdf">
+                    <a class="btn btn-xl btn-outline-light w-100 mb-2 shadow" href="./assets/Quiahn-Ballou-Resume.pdf">
                         <i class="fas fa-file-alt me-2"></i>
                         View Resume
                     </a>
                     <br/>
-                    <a class="btn btn-xl btn-outline-light w-50 mt-2" href="./assets/Quiahn-Ballou-Resume.pdf" download>
+                    <a class="btn btn-xl btn-outline-light w-100 mt-2 shadow" href="./assets/Quiahn-Ballou-Resume.pdf" download>
                         <i class="fas fa-file-alt me-2"></i>
                         Download Resume
                     </a>
                 </div>
             </div>
         </section>
-        
+
         <!-- Footer-->
-        <footer class="footer text-center bg-secondary">
+        <footer class="footer text-center bg-grad">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location -->
@@ -211,9 +444,9 @@
                     <!-- Footer Social Icons -->
                     <div class="col-lg-6 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Socials</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/codingwithqui"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/quiahn-ballou/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Quiahn"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1 shadow" href="https://twitter.com/codingwithqui"><i class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1 shadow" href="https://www.linkedin.com/in/quiahn-ballou/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1 shadow" href="https://github.com/Quiahn"><i class="fab fa-fw fa-github"></i></a>
                     </div>
                     <!-- Footer About Text -->
                     <!-- <div class="col-lg-4">
@@ -228,36 +461,32 @@
             </div>
         </footer>
 
-        <!-- Portfolio Modals-->
-        <!-- Portfolio Modal 1-->
+        <!-- Project Modals-->
+        <!-- Project Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Archi.vin</h2>
+                                    <!-- Project Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Archi.vin</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Project Modal - Image-->
                                     <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/archi.vin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Archi.vin is a audio file sharing service where you can upload songs and share it with just a url.</p>
+                                    <!-- Project Modal - Text-->
+                                    <p class="mb-4 text-white">Archi.vin is a audio file sharing service where you can upload songs and share it with just a url.</p>
                                     <a href="https://github.com/Quiahn/archi.vin">
-                                        <button class="btn btn-dark">
+                                        <button class="btn btn-outline-light">
                                             <i class="fab fa-github fa-fw"></i>
                                             Source Code
                                         </button>
                                     </a>
                                     <a href="https://quiahn.github.io/archi.vin">
-                                        <button class="btn btn-secondary">
+                                        <button class="btn btn-light">
                                             <i class="far fa-window-maximize fa-fw"></i>
                                             Live Site
                                         </button>
@@ -269,35 +498,31 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 2-->
+        <!-- Project Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Monthly</h2>
+                                    <!-- Project Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Monthly</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Project Modal - Image-->
                                     <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/monthly.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Monthly is a open source web app used to track monthly goals and aspirations that you set.</p>
+                                    <!-- Project Modal - Text-->
+                                    <p class="mb-4 text-white">Monthly is a open source web app used to track monthly goals and aspirations that you set.</p>
                                     <a href="https://github.com/NIQ-Project/niq">
-                                        <button class="btn btn-dark">
+                                        <button class="btn btn-outline-light">
                                             <i class="fab fa-github fa-fw"></i>
                                             Source Code
                                         </button>
                                     </a>
                                     <a href="https://niq-project.github.io/niq">
-                                        <button class="btn btn-secondary">
+                                        <button class="btn btn-light">
                                             <i class="far fa-window-maximize fa-fw"></i>
                                             Live Site
                                         </button>
@@ -309,35 +534,31 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 3-->
+        <!-- Project Modal 3-->
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Card Wars</h2>
+                                    <!-- Project Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Card Wars</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Project Modal - Image-->
                                     <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/card-wars.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Cardwars is a card game based on the card game war. This was a hackathon project for Mintbean's hiring hackathon for jr web developers.</p>
+                                    <!-- Project Modal - Text-->
+                                    <p class="mb-4 text-white">Cardwars is a card game based on the card game war. This was a hackathon project for Mintbean's hiring hackathon for jr web developers.</p>
                                     <a href="https://github.com/Quiahn/Mintbean-hackathon-project">
-                                        <button class="btn btn-dark">
+                                        <button class="btn btn-outline-light">
                                             <i class="fab fa-github fa-fw"></i>
                                             Source Code
                                         </button>
                                     </a>
                                     <a href="https://cardwars.org">
-                                        <button class="btn btn-secondary">
+                                        <button class="btn btn-light">
                                             <i class="far fa-window-maximize fa-fw"></i>
                                             Live Site
                                         </button>
@@ -349,35 +570,31 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 4-->
+        <!-- Project Modal 4-->
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Your Turn</h2>
+                                    <!-- Project Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Your Turn</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Project Modal - Image-->
                                     <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/your-turn.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Your Turn is a experimental social media that allows users to draw a number and post for a chance at getting their post shown on the home page. The top 3 highest numbered post get shown.</p>
+                                    <!-- Project Modal - Text-->
+                                    <p class="mb-4 text-white">Your Turn is a experimental social media that allows users to draw a number and post for a chance at getting their post shown on the home page. The top 3 highest numbered post get shown.</p>
                                     <a href="https://github.com/Quiahn/your-turn">
-                                        <button class="btn btn-dark">
+                                        <button class="btn btn-outline-light">
                                             <i class="fab fa-github fa-fw"></i>
                                             Source Code
                                         </button>
                                     </a>
                                     <a href="https://quiahn.github.io/your-turn">
-                                        <button class="btn btn-secondary">
+                                        <button class="btn btn-light">
                                             <i class="far fa-window-maximize fa-fw"></i>
                                             Live Site
                                         </button>
@@ -389,35 +606,31 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 5-->
+        <!-- Project Modal 5-->
         <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tic-tac-toe</h2>
+                                    <!-- Project Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-white text-uppercase mb-0">Tic-tac-toe</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <div class="divider-custom"><div class="divider-custom-line"></div></div>
+                                    <!-- Project Modal - Image-->
                                     <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/tic-tac-toe.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A tic-tac-toe crud application. Users can sign up, sign in, sign out and play a game of tic-tac-toe against ai.</p>
+                                    <!-- Project Modal - Text-->
+                                    <p class="mb-4 text-white">A tic-tac-toe crud application. Users can sign up, sign in, sign out and play a game of tic-tac-toe against ai.</p>
                                     <a href="https://github.com/Quiahn/Tic-Tac-Toe">
-                                        <button class="btn btn-dark">
+                                        <button class="btn btn-outline-light">
                                             <i class="fab fa-github fa-fw"></i>
                                             Source Code
                                         </button>
                                     </a>
                                     <a href="https://quiahn.github.io/Tic-Tac-Toe">
-                                        <button class="btn btn-secondary">
+                                        <button class="btn btn-light">
                                             <i class="far fa-window-maximize fa-fw"></i>
                                             Live Site
                                         </button>
@@ -429,16 +642,16 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio Modal 6-->
+        <!-- Project Modal 6-->
         <!-- <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
             <div class="modal-dialog modal-xl">
-                <div class="modal-content">
+                <div class="modal-content bg-dark">
                     <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8"> -->
-                                    <!-- Portfolio Modal - Title-->
+                                    <!-- Project Modal - Title-->
                                     <!-- <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2> -->
                                     <!-- Icon Divider-->
                                     <!-- <div class="divider-custom">
@@ -446,10 +659,10 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div> -->
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Project Modal - Image-->
                                     <!-- <img class="img-fluid rounded mb-5 border border-3 shadow-lg" src="assets/img/portfolio/submarine.png" alt="..." /> -->
-                                    <!-- Portfolio Modal - Text-->
-                                    <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Project Modal - Text-->
+                                    <!-- <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
